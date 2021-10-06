@@ -1,0 +1,13 @@
+class VideoData:
+    nome: str
+    frames_originais: list
+    frames_otimizados: list
+    fps: int
+    largura: int
+    altura: int
+    pontos_faciais: list
+    label: str
+    classificador_pos_rosto: object
+    classificador_fft: object
+    classificador_blur: object
+    classificador_juncao: object
